@@ -187,7 +187,6 @@ Request -
     "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'customer' on field 'email': rejected value [testgmail.com]; codes [Email.customer.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customer.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@512b6521,org.springframework.validation.beanvalidation.SpringValidatorAdapter$ResolvableAttribute@780982df]; default message [must be a well-formed email address]"
 }
 
-
 Ad API details - loaded some test data for customer with Id 10001 on application bootstrap itself. 
 
 1. GET - http://localhost:8080/customer/10001/ad/
